@@ -1,20 +1,20 @@
 # Rock Paper Scissors
 
-A simple Rock Paper Scissors game built with JavaScript, HTML, and the browser's prompt/console. This project is part of The Odin Project's Foundations curriculum and demonstrates basic JavaScript logic, user input, and DOM interaction.
+A simple, interactive Rock Paper Scissors game built with HTML, CSS, and JavaScript. This project is part of The Odin Project's Foundations curriculum and demonstrates DOM manipulation, event handling, and basic game logic.
 
 ## 🎮 Features
 
-- **Play Against the Computer**: The computer randomly selects rock, paper, or scissors each round.
-- **User Input**: Enter your choice via a browser prompt.
-- **Score Tracking**: Keeps track of both the player's and computer's scores.
-- **Five Rounds**: The game is played over five rounds, with the winner announced at the end.
-- **Console Output**: All results and scores are displayed in the browser console.
+- **Play Against the Computer**: Click a button to choose rock, paper, or scissors; the computer picks randomly.
+- **Live Score Tracking**: The game displays and updates your score and the computer's score after each round.
+- **Result Display**: See the outcome of each round and the overall winner when someone reaches 5 points.
+- **Responsive UI**: Clean, user-friendly interface with styled buttons and result display.
 
 ## 🗂️ Project Structure
 
 ```
 rock-paper-scissors/
 ├── index.html      # Main HTML file
+├── style.css       # Stylesheet for the game
 ├── script.js       # JavaScript game logic
 └── README.md       # Project documentation
 ```
@@ -22,21 +22,22 @@ rock-paper-scissors/
 ## 🛠️ Technologies Used
 
 - **HTML5**: Semantic markup and document structure
-- **JavaScript (ES6)**: Game logic and user interaction
+- **CSS3**: Styling and layout
+- **JavaScript (ES6)**: Game logic and DOM interaction
 
 ## 📝 How to Play
 
 1. Open `index.html` in your browser.
-2. When prompted, type your choice: `rock`, `paper`, or `scissors`.
-3. Check the browser console for round results and the final winner.
+2. Click on 🪨 Rock, 📄 Paper, or ✂️ Scissors to make your move.
+3. The result and updated scores will appear below the buttons.
+4. The first to reach 5 points wins the game!
 
 ## 📚 What I Learned
 
-- Using JavaScript functions and control flow
-- Handling user input with `prompt()`
-- Generating random choices for the computer
-- Outputting results to the browser console
-- Structuring a simple multi-round game
+- DOM selection and manipulation
+- Handling user events with JavaScript
+- Implementing game logic and score tracking
+- Updating the UI dynamically based on game state
 
 ## 🤝 Contributing
 
